@@ -1,0 +1,101 @@
+# ===============================
+# Visual Studio
+# ===============================
+.vs/
+
+# Visual Studio 2015 user specific files
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+.vsconfig
+
+# ===============================
+# Compiled files
+# ===============================
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.mod
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.ipa
+
+# ===============================
+# Unreal generated project files
+# ===============================
+*.xcodeproj
+*.xcworkspace
+*.sln
+
+# ===============================
+# Precompiled Assets
+# ===============================
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# ===============================
+# Unreal Engine output
+# ===============================
+Binaries/
+Plugins/**/Binaries/
+
+Build/
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
+
+# ===============================
+# Unreal Editor generated data
+# ===============================
+Saved/
+Intermediate/
+DerivedDataCache/
+Plugins/**/Intermediate/
+
+# ===============================
+# Unreal Editor logs & telemetry
+# ===============================
+*.log
+*.json
+AutoScreenshot.png
+
+# ===============================
+# Asset registry & caches
+# ===============================
+**/CachedAssetRegistry*.bin
+
+# ===============================
+# User-specific editor settings
+# ===============================
+Saved/Config/**
+
+# ===============================
+# Unreal config rules
+# ===============================
+# Track ONLY default configs
+Config/*.ini
+!Config/Default*.ini
+
+# Ignore per-user config overrides
+Config/ConfigCache.ini
+Config/Windows/EditorPerProjectUserSettings.ini
+
+# ===============================
+# OS junk
+# ===============================
+.DS_Store
+Thumbs.db
